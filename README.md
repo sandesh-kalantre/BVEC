@@ -8,23 +8,27 @@ On starting the program,a BEE> prompt will be shown.Use "exit" to exit the progr
 
 Examples:
 <ul>
-<li>Definition of a BVEC
+<li>Definition of a BVEC 
+	<br>
 	(C width_of_the_bit_array hex_string)
-	
+	<br>
 	BEE>(C 12 abc)
+	
 	
 	<ul>Rules
 	<li>If the width is greater than bit represented in hex_string,zeros are padded at the front.</li>
 	<li>If the width is smaller,the leading bits are dropped.</li>
 	</ul>
 </li>
+<br>
 <li>Adding two BVECs
-	(add BVEC_definition BVEC_definition)
-	BEE>(add (C 12 abc) (C 4 g))
+	<br>(add BVEC_definition BVEC_definition)
+	<br>BEE>(add (C 12 abc) (C 4 g))
 </li>
+<br>
 <li>Select
-	(select BVEC_definition lo_index hi_index)
-	BEE>(select (C 12 abc) 0 4)
+	<br>(select BVEC_definition lo_index hi_index)
+	<br>BEE>(select (C 12 abc) 0 4)
 </li>
 </ul>
 
