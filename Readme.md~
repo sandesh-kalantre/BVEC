@@ -1,5 +1,4 @@
-BVEC
-====
+
 BIT VECTOR(BVEC) that can store hex strings efficiently given the width of the bit array.
 The program has an inbuilt parser that can be used to perform very basic operations on bit arrays
 such as adding two BVECs and making a new BVEC by selection of bits from an existing BVEC.
@@ -23,5 +22,4 @@ Examples:
 	(select BVEC_definition lo_index hi_index)
 	BEE>(select (C 12 abc) 0 4)
 
-
-This program was inspired from a question in the AP Grade Contest CS101 2014 held at IIT, Bombay.
+This program was inspired form a question in the AP Grade Contest CS101 2014 held at IIT, Bombay.
